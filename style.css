@@ -23,11 +23,13 @@ img {
   width: 96%;
 }
 
-label, button {
+label,
+button {
   display: block;
 }
 
-input, textarea {
+input,
+textarea {
   font-size: 18px;
   padding-bottom: 12px;
   margin-bottom: 12px;
@@ -61,9 +63,11 @@ button {
   text-align: left;
 }
 
-.fas, .far, .fab {
-  font-size: 24px;
-  padding-right: 12px;
+.fas,
+.far,
+.fab {
+  font-size: 26px;
+  width: 36px;
 }
 
 footer {
@@ -71,11 +75,13 @@ footer {
   margin: 48px auto 12px;
 }
 
-@media all and (min-width: 450px){
+@media all and (min-width: 450px) {
   h1 {
     font-size: 52px;
   }
-  header, .info {
+
+  header,
+  .info {
     width: 65%;
   }
 
@@ -85,7 +91,7 @@ footer {
   }
 }
 
-@media all and (min-width: 900px){
+@media all and (min-width: 900px) {
   body {
     width: 80%;
   }
